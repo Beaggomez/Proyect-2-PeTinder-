@@ -63,7 +63,7 @@ DELETE | /address/:id                    | YES   | admin  | Delete One address  
 
 METHOD  | ENDPOINT                       | TOKEN | ROLE   | DESCRIPTION          | POST PARAMS                                   | RETURNS
 --------|--------------------------------|-------|--------|----------------------|-----------------------------------------------|--------------------
-POST    | /date/:petId1/:petId2          | YES   | admin  | Create One Date      |  `meetPoint`, `date`                          | 'Date created'
+POST    | /date                          | YES   | admin  | Create One Date      |  `meetPoint`, `date`, `petId1`, `petId2`      | 'Date created'
 GET     | /date/:id                      | YES   | admin  | See One date         |                                               | {date}
 GET     | /date                          | YES   | admin  | See All dates        |                                               | [{date}]
 PUT     | /date/:id                      | YES   | admin  | Update One Date      |  `meetPoint`, `date`                          | 'Date updated'
